@@ -68,6 +68,15 @@ ITEM_PIPELINES = {
    'douban250.pipelines.Douban250Pipeline': 300,
 }
 
+# mongodb主机回环地址
+MONGODB_HOST = '127.0.0.1'
+# 端口号
+MONGODB_PORT = 27017
+# 数据库名称
+MONGODB_DBNAME = 'douban250'
+# 存放本次数据表名称
+MONGODB_DOCNAME = 'movieinfos'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
